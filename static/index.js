@@ -441,11 +441,11 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
             SubmitResults();
         }
 
-        if (cps <= 5) return '试着好好练一下？';
-        if (cps <= 8) return 'TCL';
-        if (cps <= 10)  return 'TQL';
-        if (cps <= 15) return '您';
-        return '人？';
+        if (cps <= 5) return '太逊了，霍利都看不起你';
+        if (cps <= 8) return '霍利：再快点，感觉来了';
+        if (cps <= 10)  return '霍利已经红肿不堪了';
+        if (cps <= 15) return '霍利在线求饶';
+        return '霍利：杰哥不要啊！';
     }
 
     function toStr(obj) {
